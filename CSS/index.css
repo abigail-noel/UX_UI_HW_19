@@ -1,0 +1,117 @@
+#container {
+    background-color: #BFB1C4;
+    height: 15%;
+  }
+  .navBar {
+    display: inline-block;
+    background-color: #BFB1C4;
+    padding: 15px;
+    color: white;
+    font-family: mulish;
+  }
+  .ul {
+    list-style-type: none;
+    margin-left: auto;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    display: inline-block;
+  }
+  
+  li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .container {
+    position: relative;
+    font-family: Mulish;
+  }
+  
+  .text-block {
+    position: absolute;
+    max-width: 25%;
+    bottom: 20px;
+    left: 20px;
+    background-color: #BFB1C4;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .button {
+    border: 3px solid white;
+    background-color: #BFB1C4;
+    color: white;
+    border-radius: 8px;
+    padding: 0px 50px;
+    margin-bottom: 15px;
+  }
+
+  /* My UX Skills Section */
+.flexContainer {
+  display: flex;
+  padding: 60px 30px;
+}
+.flexContainer div {
+  width: 33%;
+  padding: 25px;
+}
+/* My Work Section */
+.myWork {
+  padding: 60px 30px;
+  padding-top: 0;
+  background-color: #BFB1C4;
+}
+.workGrid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 350px 350px;
+  grid-template-areas:
+  "img1 content1"
+  "img2 content2";
+}
+.workGrid img {
+  width: 100%;
+  max-width: 250px;
+  margin: 0 auto;
+  display: block;
+}
+#navigation {
+  display: none;
+}
+.icons {
+  margin-left: auto;
+}
+
+@media only screen and (max-width: 600px) 
+{
+#headline {
+  position: static;
+  margin: 20px;
+}
+}
+#categoryGrid {
+  grid-template-rows: 300px 300px 300px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "img1 content1" 
+    "img2 content2"
+  ;
+}
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #BFB1C4;
+    color: white;
+  }
